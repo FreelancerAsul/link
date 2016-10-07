@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Exo|Montserrat|Poiret+One|Raleway';
+@import 'https://fonts.googleapis.com/css?family=Quicksand:300';
+
+@import 'https://fonts.googleapis.com/css?family=Merienda|Patrick+Hand';
+//font-family: 'Raleway', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Quicksand', sans-serif;
+//font-family: 'Poiret One', cursive;
+//font-family: 'Exo', sans-serif;
+
+//font-family: 'Patrick Hand', cursive;=======
+//font-family: 'Merienda', cursive;=====
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Exo', sans-serif;
+}
+.brand,header ul li a{
+  font-family: 'Quicksand', cursive;
+  letter-spacing:-2px;
+}

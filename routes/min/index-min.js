@@ -1,0 +1,1 @@
+var express=require("express"),router=express.Router();router.get("/",function(e,r,s){r.send("index?")}),app.use("/",router);

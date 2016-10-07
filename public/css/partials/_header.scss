@@ -1,0 +1,73 @@
+header {
+  position:absolute;
+  width:100vw;
+  top:0;
+  left:0;
+  .header {
+    height:65px;
+    width:calc(100% - 20px);
+    background-color: $rich-blue;
+    padding: 5px 10px;
+
+    .brand{
+      background-image:url(../assets/images/logo.svg);
+      background-size: contain;
+      background-repeat:no-repeat;
+      height: 65px;
+      float:left;
+      padding-left: 70px;
+      color: $electric-white;
+    }
+
+    @media only screen and (min-width: 701px) {
+      height: 80px;
+
+      .brand{
+        height: 80px;
+        padding-left: 85px;
+        font-size: 80px;
+      }
+    }
+  }
+ul{
+
+}
+  ul{
+    width:100vw;
+    background-color: $pastel-orange;
+    height:45px;
+    max-height: 20px;
+    box-shadow: $shadow-z-1;
+    transition: max-height 0.3s;
+    list-style-type: none;
+    text-align: justify;
+    background-image:url(../assets/images/arrow.down.svg);
+    background-size: auto 20px;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    &:hover{
+      max-height:45px;
+      background-image: none;
+    }
+    li{
+      opacity: 0;
+      width:calc(100vw/4);
+      transition: opacity 0.3s, background-color 0.3s;
+      float:left;
+      text-align: center;
+      background-color: inherit;
+      &:hover{
+        background-color: $rich-blue;
+      }
+      a{
+        text-decoration: none;
+        font-size: 25px;
+        line-height: 45px;
+        color:$electric-white;
+      }
+    }
+  }
+  ul:hover>li{
+    opacity: 1;
+  }
+}

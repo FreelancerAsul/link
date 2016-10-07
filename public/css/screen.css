@@ -1,0 +1,99 @@
+/*
+Error: Undefined variable: "$rich-blue".
+        on line 9 of /Users/student/saulSites/link/public/css/partials/_header.scss
+        from line 15 of /Users/student/saulSites/link/public/css/screen.scss
+
+4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
+5: 
+6: @import "compass/reset";
+7: @import "compass";
+8: 
+9: // Modules and Variables
+10: @import "partials/base";
+11: 
+12: // Partials
+13: @import "partials/grid";
+14: @import "partials/body";
+
+Backtrace:
+/Users/student/saulSites/link/public/css/partials/_header.scss:9
+/Users/student/saulSites/link/public/css/screen.scss:15
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `map'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:16:in `render'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Library/Ruby/Gems/2.0.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
+/Users/student/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$rich-blue\".\A         on line 9 of /Users/student/saulSites/link/public/css/partials/_header.scss\A         from line 15 of /Users/student/saulSites/link/public/css/screen.scss\A \A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";\A 7: @import \"compass\";\A 8: \A 9: // Modules and Variables\A 10: @import \"partials/base\";\A 11: \A 12: // Partials\A 13: @import \"partials/grid\";\A 14: @import \"partials/body\";"; }
